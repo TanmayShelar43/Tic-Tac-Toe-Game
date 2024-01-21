@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Document</title>
+</head>
+<body>
+  
+  <div class="container">
+    <h2>X:0&nbspY:0</h2>
+  <div class="game">
+    <button class="box" id="box1" onclick="
+    str='box1';
+    console.log(document.querySelector('#box1').innerText)
+    turn(Userturn,str);
+    Userturn++;
+    const button1 = document.getElementById('box1');
+    button1.disabled = true;
+    result();
+    ">
+
+    </button>
+    <button class="box" id="box2"  onclick="
+    str='box2';
+    turn(Userturn,str);
+    Userturn++;
+    const button2 = document.getElementById('box2');
+    button2.disabled = true;
+    result();"
+    >
+    </button>
+    <button class="box" id="box3" onclick="
+    str='box3';
+    turn(Userturn,str);
+    Userturn++;
+    const button3 = document.getElementById('box3');
+    button3.disabled = true;
+    result();
+    ">
+
+    </button>
+    <button class="box" id="box4" onclick="
+    str='box4';
+    turn(Userturn,str);
+    Userturn++;
+    const button4 = document.getElementById('box4');
+    button4.disabled = true;
+    result();
+    ">
+
+    </button>
+    <button class="box" id="box5" onclick="
+    str='box5';
+    turn(Userturn,str);
+    Userturn++;
+    const button5 = document.getElementById('box5');
+    button5.disabled = true;
+    result();
+    ">
+
+    </button>
+    <button class="box" id="box6" onclick="
+    str='box6';
+    turn(Userturn,str);
+    Userturn++;
+    const button6 = document.getElementById('box6');
+    button6.disabled = true;
+    result();
+    ">
+
+    </button>
+    <button class="box" id="box7" onclick="
+    str='box7';
+    turn(Userturn,str);
+    Userturn++;
+    const button7 = document.getElementById('box7');
+    button7.disabled = true;
+    result();
+    ">
+
+    </button>
+    <button class="box" id="box8" onclick="
+    str='box8';
+    turn(Userturn,str);
+    Userturn++;
+    const button8 = document.getElementById('box8');
+    button8.disabled = true;
+    result();
+    ">
+
+    </button>
+    <button class="box" id="box9" onclick="
+    str='box9';
+    turn(Userturn,str);
+    Userturn++;
+    const button9 = document.getElementById('box9');
+    button9.disabled = true;
+    result();
+    ">
+
+    </button>
+  </div>
+  <div id="reset_container">
+  <button class="reset" onclick="
+  document.querySelector('h2').innerText=(`X:${score.X=0} Y:${score.Y=0}`);
+    ">Restart game</button>
+  </div>
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>
